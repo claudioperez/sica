@@ -2,7 +2,6 @@
 
 <img src="image/sica_logo.svg" alt="SICA logo" width="420"/>
 
-
 **SICA** = **S**tructure **I**nvestigation and **C**ondition **A**ssessment.
 
 `sica-bridge` is a Python package that uses a vision-capable LLM to perform **post-earthquake visual inspection** from photos and to **support rapid decision-making** for bridge safety assessment.
