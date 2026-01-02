@@ -1,8 +1,7 @@
 # sica-bridge
 
-<p align="center">
-  <img src="image/sica_logo.svg" alt="SICA logo" width="300"/>
-</p>
+<img src="image/sica_logo.svg" alt="SICA logo" width="420"/>
+
 
 **SICA** = **S**tructure **I**nvestigation and **C**ondition **A**ssessment.
 
