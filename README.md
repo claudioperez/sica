@@ -157,15 +157,10 @@ should return a **JSON object** as plain text (no markdown), matching the schema
 
 ```python
 from sica_bridge.llm.openai_client import OpenAIVisionClient
-client = OpenAIVisionClient(model="gpt-4.1-mini")
+client = OpenAIVisionClient(model="gpt-5.2")
 ```
 
-### Fake client (for tests)
-
-```python
-from sica_bridge.llm.client import FakeVisionLLMClient
-fake = FakeVisionLLMClient('{"component_id":"columns","r_state":"R2","reason":"Some cracking"}')
-```
+Please also check [Adding a new LLM provider](README_new_llm_section.md)
 
 ---
 

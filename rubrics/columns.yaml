@@ -39,8 +39,6 @@ r_states:
 
 decision_rules:
   - "Classify based on the inspection photo (first image). Reference images are for calibration only."
-  - "If any cue for a higher severity is clearly present, choose the higher severity."
-  - "If unsure between two adjacent states, choose the more conservative (higher) state."
   - "Diagonal cracking and loss of confinement are treated as high-risk because aftershocks can rapidly worsen damage."
 
 output:

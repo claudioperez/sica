@@ -22,7 +22,7 @@ class OpenAIVisionClient(VisionLLMClient):
 
     API key is read from environment variable OPENAI_API_KEY.
     """
-    model: str = "gpt-4.1-mini"
+    model: str = "gpt-5.2"
     detail: str = "auto"
 
     def __post_init__(self) -> None:

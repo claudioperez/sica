@@ -10,7 +10,7 @@ Important:
 - Use REFERENCE images only to calibrate what damage/conditions look like.
 
 Task:
-Using the rubric, choose exactly one R_state (R1, R3) for the QUERY image and write a brief reason based on visible evidence in the QUERY image.
+Using the rubric, choose exactly one R_state (R1, R2, R3) for the QUERY image and write a brief reason based on visible evidence in the QUERY image.
 
 Output:
 Return ONLY a JSON object that matches the provided JSON schema.
