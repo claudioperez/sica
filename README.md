@@ -57,15 +57,15 @@ pip install -e .
 pip install -e ".[dev]"
 ```
 
-## Quickstart: run the Gradio demo
+## Quickstart: run the demo
 
-The repo includes a Gradio UI and you can have a quick local deployment for testing:
+The repo includes a default UI and you can have a quick local deployment for research or testing:
 
 ```bash
 python src/sica_bridge/gui/webserver.py
 ```
 
-Then open the local Gradio URL and upload one or more photos for each component category. Please don't forget to set up the OpenAI API key for the testing.
+Then open the local server URL and upload one or more photos for each component category. Please don't forget to set up the OpenAI or other LLM API key for the testing. If you are planning to use your own computer vision models, please set up the GPU server for testing. Go to [Adding a new LLM provider](README_new_llm_section.md) for further information.
 
 ## How it works (pipeline)
 
