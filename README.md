@@ -1,6 +1,6 @@
 # sica-bridge
 
-<img src="image/sica_logo.svg" alt="SICA logo" width="420"/>
+<img src="https://raw.githubusercontent.com/issacpang/sica/main/image/sica_logo.svg" alt="SICA logo" width="420"/>
 
 **SICA** = **S**tructure **I**nvestigation and **C**ondition **A**ssessment.
 

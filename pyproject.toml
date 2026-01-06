@@ -26,9 +26,15 @@ dev = [
 [tool.setuptools]
 package-dir = {"" = "src"}
 
+# Issac: include non-python assets if/when we move rubrics/prompts into src later
 [tool.setuptools.package-data]
-# include non-python assets if/when we move rubrics/prompts into src later
-sica_bridge = ["py.typed", "data/**/*"]
+sica_bridge = [
+  "py.typed",
+  "prompts/**/*",
+  "rubrics/**/*",
+  "assets/**/*",
+]
+
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

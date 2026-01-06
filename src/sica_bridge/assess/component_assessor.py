@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from sica_bridge.llm import render_prompt
+from sica_bridge.llm.prompt_builder import render_prompt
 from sica_bridge.llm.client import VisionInput, VisionLLMClient
 from sica_bridge.schemas import ComponentAssessment
 from sica_bridge.utils import extract_json_object
